@@ -1,0 +1,26 @@
+#
+msgid ""
+msgstr ""
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/ckeditor/teams/11143/pt_BR/)\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "Toolbar button tooltip for the Export Document feature."
+msgid "Export Document"
+msgstr "Exportar Documento"
+
+msgctxt "Toolbar button tooltip for the Export to RTF feature."
+msgid "Export to RTF"
+msgstr "Exportar para RTF"
+
+msgctxt "Toolbar button tooltip for the Export to PDF feature."
+msgid "Export to PDF"
+msgstr "Exportar para PDF"
+
+msgctxt "Toolbar button tooltip for the Export to DOCX feature."
+msgid "Export to DOCX"
+msgstr "Exportar para DOCX"
+
+msgctxt "Toolbar button tooltip for the Export to TXT feature."
+msgid "Export to TXT"
+msgstr "Exportar para TXT"

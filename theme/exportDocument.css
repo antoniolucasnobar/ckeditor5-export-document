@@ -1,0 +1,10 @@
+
+
+.export-button {
+	width: 35px !important;
+
+	& .ck.ck-icon.ck-button__icon {
+		width: auto;
+		height: auto;
+	  }
+}
