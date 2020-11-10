@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-export-document",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Export Document (to RTF and PDF) plugin for CKEditor 5.",
   "author": {
     "name": "Antonio Lucas Neres",

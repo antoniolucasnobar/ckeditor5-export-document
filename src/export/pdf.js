@@ -21,8 +21,8 @@ export default function generatePdf(editorData) {
     const html = htmlToPdfmake( editorData, {
         defaultStyles: {
             p: {marginBottom:5, marginTop:5, margin:''},
-            img: { maxWidth: 200, _maxWidth: 200},
-            figure: { maxWidth: 200, _maxWidth: 200}
+            img: { maxWidth: 500, _maxWidth: 500},
+            figure: { maxWidth: 500, _maxWidth: 500}
         }
     } );
 
