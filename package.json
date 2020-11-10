@@ -1,7 +1,7 @@
 {
   "name": "ckeditor5-export-document",
-  "version": "0.0.1-alfa",
-  "description": "Export Document plugin for CKEditor 5.",
+  "version": "0.2.0",
+  "description": "Export Document (to RTF and PDF) plugin for CKEditor 5.",
   "author": {
     "name": "Antonio Lucas Neres",
     "email": "antoniolucasnobar@gmail.com"
@@ -13,11 +13,14 @@
     "ckeditor5-feature",
     "ckeditor5-plugin",
     "rtf",
+    "pdf",
     "conversion"
   ],
   "dependencies": {
     "downloadjs": "^1.4.7",
-    "html-to-rtf-browser": "^1.6.0-alfa-1"
+    "html-to-pdfmake": "^2.1.2",
+    "html-to-rtf-browser": "^1.6.0-alfa-1",
+    "pdfmake": "^0.1.68"
   },
   "peerDependencies": {
     "@ckeditor/ckeditor5-core": "^23.1.0",

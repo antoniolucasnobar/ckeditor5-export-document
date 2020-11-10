@@ -4,7 +4,6 @@
  */
 
 import Command from '@ckeditor/ckeditor5-core/src/command';
-import download from 'downloadjs'
 
 /**
  * The Export Document command. It is used by the {@link module:exportDocument/exportDocumentediting~ExportDocumentEditing feature}
@@ -31,8 +30,6 @@ export default class ExportDocumentCommand extends Command {
 	 * @fires execute
 	 */
 	execute( options ) {
-		const exportedDocument = options.export(this.editor.getData());
-		const blob = new Blob([exportedDocument], {type: options.mime} );
-		download(blob, 'documento.' + options.extension , options.mime);
+		options.export(this.editor.getData());
 	}
 }

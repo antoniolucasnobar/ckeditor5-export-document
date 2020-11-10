@@ -3,9 +3,12 @@
  */
 
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
-import htmlToRtf from 'html-to-rtf-browser';
 import rtfIcon from '../theme/icons/rtf.svg'
+import pdfIcon from '../theme/icons/pdf.svg'
 import ExportDocumentCommand from './exportDocumentCommand';
+
+import generatePdf from "./export/pdf";
+import generateRtf from "./export/rtf";
 
 /**
  *
@@ -31,8 +34,15 @@ export default class ExportDocumentEditing extends Plugin {
 					extension: 'rtf',
 					title: 'Export to RTF',
 					icon: rtfIcon,
-					export: (editorData) => htmlToRtf.convertHtmlToRtf(editorData),
+					export: (editorData) => generateRtf(editorData),
 					mime: 'application/rtf'
+				},
+				{
+					extension: 'pdf',
+					title: 'Export to PDF',
+					icon: pdfIcon,
+					export: (editorData) => generatePdf(editorData),
+					mime: 'application/pdf'
 				},
 			]
 		} );
